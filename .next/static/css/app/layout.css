@@ -536,6 +536,9 @@ video {
 .grid {
   display: grid;
 }
+.hidden {
+  display: none;
+}
 .h-20 {
   height: 5rem;
 }
@@ -596,8 +599,14 @@ video {
 .items-center {
   align-items: center;
 }
+.justify-start {
+  justify-content: flex-start;
+}
 .justify-end {
   justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
 }
 .justify-between {
   justify-content: space-between;
@@ -662,6 +671,22 @@ video {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
+.py-36 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 .pb-40 {
   padding-bottom: 10rem;
 }
@@ -676,6 +701,18 @@ video {
 }
 .pl-3 {
   padding-left: 0.75rem;
+}
+.pb-16 {
+  padding-bottom: 4rem;
+}
+.pt-14 {
+  padding-top: 3.5rem;
+}
+.pt-12 {
+  padding-top: 3rem;
+}
+.pt-10 {
+  padding-top: 2.5rem;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -719,5 +756,44 @@ video {
 .hover\:text-blue-500:hover {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+
+  .md\:inline {
+    display: inline;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .lg\:inline {
+    display: inline;
+  }
+
+  .lg\:justify-evenly {
+    justify-content: space-evenly;
+  }
+
+  .lg\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  .lg\:pb-40 {
+    padding-bottom: 10rem;
+  }
+
+  .lg\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .lg\:pt-28 {
+    padding-top: 7rem;
+  }
 }
 

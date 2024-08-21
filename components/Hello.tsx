@@ -4,8 +4,12 @@ import computer from "@/images/computer.png";
 
 export default function Hello() {
   return (
-    <section className="container flex justify-evenly border-b pb-40 pt-32">
-      <Image src={hello} alt="hello" className="h-[358px] w-[387px]" />
+    <section className="container flex justify-start lg:justify-evenly border-b pb-16 pt-10 lg:pt-28 lg:pb-40 gap-10">
+      <Image
+        src={hello}
+        alt="hello"
+        className="h-[358px] w-[387px] hidden lg:inline"
+      />
       <div className="flex flex-col justify-end gap-5 py-4">
         <h1 className="text-7xl font-bold text-[#FF5925]">Hello!</h1>
         <div className="flex flex-col gap-3">
@@ -15,7 +19,7 @@ export default function Hello() {
             <Image
               src={computer}
               alt="computer"
-              className="h-[50px] w-[74px]"
+              className="h-[50px] w-[74px] hidden lg:inline"
             />
           </div>
           <p className="text-5xl">based in Gurugram.</p>

@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <section className="container flex h-20 items-center justify-between border-white font-bold">
-      <h1 className="text-2xl font-semibold">Sanskar Kumar</h1>
-      <div className="flex text-lg">
+    <section className="container flex h-20 items-center justify-center md:justify-between border-white font-bold">
+      <h1 className="text-2xl font-semibold hidden md:inline">Sanskar Kumar</h1>
+      <div className="flex text-lg ">
         <Link href="#" className="px-5 hover:text-blue-500">
           Home
         </Link>
