@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import green_triangle from "@/images/green_triangle.png";
 
 export default function CompetitiveProgramming() {
@@ -12,11 +13,11 @@ export default function CompetitiveProgramming() {
         />
         <h1 className="font-semibold text-5xl">Competitive Programming</h1>
       </div>
-      <ol className="ml-14">
-        <li>1616 contest rating on Leetcode</li>
-        <li>Solved 200+ questions on Leetcode</li>
-        <li>Solved 150+ questions on Codechef</li>
-      </ol>
+      <div className=" flex flex-col ml-14 font-semibold gap-3">
+        <p>1616 contest rating on Leetcode</p>
+        <p>Solved 200+ questions on Leetcode</p>
+        <p>Solved 150+ questions on Codechef</p>
+      </div>
     </section>
   );
 }

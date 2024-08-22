@@ -85,6 +85,14 @@ export default function Technologies() {
           />
           <p>Matplotlib</p>
         </div>
+        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+          <Image src={matplotlib} alt="C" className="w-[48px] h-[48px]" />
+          <p>C</p>
+        </div>
+        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+          <Image src={matplotlib} alt="C++" className="w-[48px] h-[48px]" />
+          <p>C++</p>
+        </div>
       </div>
     </section>
   );

@@ -1,5 +1,12 @@
 import Link from "next/link";
 
+function scrollDown() {
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: "smooth",
+  });
+}
+
 export default function Navbar() {
   return (
     <section className="container flex h-20 items-center justify-center md:justify-between border-white font-bold">
@@ -12,9 +19,13 @@ export default function Navbar() {
           Projects
         </Link>
         <Link href="#" className="px-3 sm:px-5 hover:text-blue-500">
-          Resume
+          Resumé
         </Link>
-        <Link href="#" className="px-3 sm:px-5 hover:text-blue-500">
+        <Link
+          href="#"
+          className="px-3 sm:px-5 hover:text-blue-500"
+          onClick={() => scrollDown()}
+        >
           Contact
         </Link>
       </div>
