@@ -13,11 +13,11 @@ export default function Contact() {
         />
         <h1 className="text-5xl font-semibold">Contact</h1>
       </div>
-      <div className="flex gap-8 pl-14 text-lg font-bold">
+      <div className="flex flex-wrap gap-8 ml-14 text-lg font-bold">
         <Link href="#">LinkedIn</Link>
         <Link href="#">Email</Link>
         <Link href="#">Github</Link>
-        <Link href="#">Mobile</Link>
+        <Link href="#">Phone</Link>
       </div>
     </section>
   );

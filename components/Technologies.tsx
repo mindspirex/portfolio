@@ -8,6 +8,10 @@ import node_js from "@/images/technologies/node_js.svg";
 import javascript from "@/images/technologies/javascript.svg";
 import typescript from "@/images/technologies/typescript.svg";
 import css from "@/images/technologies/css.svg";
+import python from "@/images/technologies/python.svg";
+import numpy from "@/images/technologies/numpy.svg";
+import matplotlib from "@/images/technologies/matplotlib.svg";
+import latex from "@/images/technologies/latex.svg";
 
 export default function Technologies() {
   return (
@@ -59,7 +63,27 @@ export default function Technologies() {
         </div>
         <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
           <Image src={node_js} alt="node js" className="w-[48px] h-[48px]" />
-          <p>Node Js</p>
+          <p>Node.js</p>
+        </div>
+        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+          <Image src={latex} alt="latex" className="w-[48px] h-[48px]" />
+          <p>Latex</p>
+        </div>
+        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+          <Image src={python} alt="python" className="w-[48px] h-[48px]" />
+          <p>Python</p>
+        </div>
+        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+          <Image src={numpy} alt="numpy" className="w-[48px] h-[48px]" />
+          <p>Numpy</p>
+        </div>
+        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+          <Image
+            src={matplotlib}
+            alt="matplotlib"
+            className="w-[48px] h-[48px]"
+          />
+          <p>Matplotlib</p>
         </div>
       </div>
     </section>
