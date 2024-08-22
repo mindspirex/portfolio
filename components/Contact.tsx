@@ -14,10 +14,11 @@ export default function Contact() {
         <h1 className="text-5xl font-semibold">Contact</h1>
       </div>
       <div className="flex flex-wrap gap-8 ml-14 text-lg font-bold">
-        <Link href="#">LinkedIn</Link>
-        <Link href="#">Email</Link>
-        <Link href="#">Github</Link>
-        <Link href="#">Phone</Link>
+        <Link href="https://www.linkedin.com/in/sanskar-kumar-85800b214/">
+          LinkedIn
+        </Link>
+        <Link href="mailto:ksanskar.kumar@gmail.com">Email</Link>
+        <Link href="https://github.com/mindspirex">Github</Link>
       </div>
     </section>
   );
