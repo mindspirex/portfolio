@@ -12,6 +12,8 @@ import python from "@/images/technologies/python.svg";
 import numpy from "@/images/technologies/numpy.svg";
 import matplotlib from "@/images/technologies/matplotlib.svg";
 import latex from "@/images/technologies/latex.svg";
+import c from "@/images/technologies/c.svg";
+import cpp from "@/images/technologies/cpp.svg";
 
 export default function Technologies() {
   return (
@@ -86,11 +88,11 @@ export default function Technologies() {
           <p>Matplotlib</p>
         </div>
         <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
-          <Image src={matplotlib} alt="C" className="w-[48px] h-[48px]" />
+          <Image src={c} alt="C" className="w-[48px] h-[48px]" />
           <p>C</p>
         </div>
         <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
-          <Image src={matplotlib} alt="C++" className="w-[48px] h-[48px]" />
+          <Image src={cpp} alt="C++" className="w-[48px] h-[48px]" />
           <p>C++</p>
         </div>
       </div>

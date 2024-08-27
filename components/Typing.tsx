@@ -14,9 +14,9 @@ export default function Typing() {
         />
         <h1 className="text-5xl font-semibold">Typing</h1>
       </div>
-      <div className="flex flex-col gap-5">
-        <Image src={typing1} alt="typing" className="rounded-lg w-[800px]" />
-        <Image src={typing2} alt="typing" className="rounded-lg w-[800px]" />
+      <div className="flex flex-wrap gap-5">
+        <Image src={typing1} alt="typing" className="rounded-lg w-[500px]" />
+        <Image src={typing2} alt="typing" className="rounded-lg w-[500px]" />
       </div>
     </section>
   );
