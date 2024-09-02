@@ -1,6 +1,7 @@
 import Image from "next/image";
 import green_triangle from "@/images/green_triangle.png";
 import zerodha from "@/images/zerodha.png";
+import starbucks from "@/images/starbucks.png";
 
 export default function Projects() {
   return (
@@ -19,7 +20,7 @@ export default function Projects() {
           <h3 className="py-5 text-xl">Zerodha Clone</h3>
         </div>
         <div className="flex flex-col rounded-lg border items-center justify-center">
-          <Image src={zerodha} alt="zerodha" className="border-b w-[500px]" />
+          <Image src={starbucks} alt="zerodha" className="border-b w-[500px]" />
           <h3 className="py-5 text-xl">Starbucks Clone</h3>
         </div>
       </div>
