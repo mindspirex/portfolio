@@ -19,6 +19,7 @@ export default function Contact() {
         </Link>
         <Link href="mailto:ksanskar.kumar@gmail.com">Email</Link>
         <Link href="https://github.com/mindspirex">Github</Link>
+        <Link href="https://leetcode.com/u/sanskar3">Leetcode</Link>
       </div>
     </section>
   );
