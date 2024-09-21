@@ -557,6 +557,12 @@ video {
 .h-\[50px\] {
   height: 50px;
 }
+.h-14 {
+  height: 3.5rem;
+}
+.h-12 {
+  height: 3rem;
+}
 .w-44 {
   width: 11rem;
 }
@@ -574,6 +580,9 @@ video {
 }
 .w-\[74px\] {
   width: 74px;
+}
+.w-36 {
+  width: 9rem;
 }
 .flex-col {
   flex-direction: column;
@@ -700,6 +709,10 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -747,8 +760,16 @@ video {
     display: inline;
   }
 
+  .md\:w-44 {
+    width: 11rem;
+  }
+
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:gap-10 {
+    gap: 2.5rem;
   }
 }
 

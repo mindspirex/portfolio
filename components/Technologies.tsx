@@ -26,24 +26,24 @@ export default function Technologies() {
         />
         <h1 className="font-semibold text-5xl">Technologies</h1>
       </div>
-      <div className="flex flex-wrap gap-10">
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+      <div className="flex flex-wrap gap-5 md:gap-10 text-xs md:text-mda">
+        <div className="flex h-14 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image src={react} alt="react" className="w-[48px] h-[48px]" />
-          <p>React</p>
+          <p className="">React</p>
         </div>
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+        <div className="flex h-16 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image src={tailwind} alt="tailwind" className="w-[48px] h-[48px]" />
           <p>Tailwind</p>
         </div>
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+        <div className="flex h-16 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image src={git} alt="git" className="w-[48px] h-[48px]" />
           <p>Git</p>
         </div>
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+        <div className="flex h-16 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image src={css} alt="css" className="w-[48px] h-[48px]" />
           <p>CSS</p>
         </div>
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+        <div className="flex h-16 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image
             src={javascript}
             alt="javascript"
@@ -51,7 +51,7 @@ export default function Technologies() {
           />
           <p>Javascript</p>
         </div>
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+        <div className="flex h-16 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image
             src={typescript}
             alt="typescript"
@@ -59,27 +59,27 @@ export default function Technologies() {
           />
           <p>Typescript</p>
         </div>
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+        <div className="flex h-16 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image src={html} alt="html" className="w-[48px] h-[48px]" />
           <p>HTML</p>
         </div>
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+        <div className="flex h-16 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image src={node_js} alt="node js" className="w-[48px] h-[48px]" />
           <p>Node.js</p>
         </div>
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+        <div className="flex h-16 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image src={latex} alt="latex" className="w-[48px] h-[48px]" />
           <p>Latex</p>
         </div>
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+        <div className="flex h-16 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image src={python} alt="python" className="w-[48px] h-[48px]" />
           <p>Python</p>
         </div>
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+        <div className="flex h-16 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image src={numpy} alt="numpy" className="w-[48px] h-[48px]" />
           <p>Numpy</p>
         </div>
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+        <div className="flex h-16 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image
             src={matplotlib}
             alt="matplotlib"
@@ -87,11 +87,11 @@ export default function Technologies() {
           />
           <p>Matplotlib</p>
         </div>
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+        <div className="flex h-16 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image src={c} alt="C" className="w-[48px] h-[48px]" />
           <p>C</p>
         </div>
-        <div className="flex h-16 w-44 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4">
+        <div className="flex h-16 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image src={cpp} alt="C++" className="w-[48px] h-[48px]" />
           <p>C++</p>
         </div>
