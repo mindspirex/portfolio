@@ -17,13 +17,13 @@ export default function Projects() {
         <h1 className="font-semibold text-5xl">Projects</h1>
       </div>
       <div className="flex flex-wrap gap-5">
-        <Link href="www.zerodha.sanskar.dev">
+        <Link href="https://zerodhaclone-7yosxrk8m-mindspirexs-projects.vercel.app/">
           <div className="flex flex-col rounded-lg border items-center justify-center">
             <Image src={zerodha} alt="zerodha" className="border-b w-[500px]" />
             <h3 className="py-5 text-xl">Zerodha Clone</h3>
           </div>
         </Link>
-        <Link href="www.starbucks.sanskar.dev">
+        <Link href="https://starbucksclone-r8rqv0jr7-mindspirexs-projects.vercel.app/">
           <div className="flex flex-col rounded-lg border items-center justify-center">
             <Image
               src={starbucks}
@@ -33,7 +33,7 @@ export default function Projects() {
             <h3 className="py-5 text-xl">Starbucks Clone</h3>
           </div>
         </Link>
-        <Link href="www.abacus.sanskar.dev">
+        <Link href="https://abacus-oc1enlmpt-mindspirexs-projects.vercel.app/">
           <div className="flex flex-col rounded-lg border items-center justify-center">
             <Image src={abacus} alt="zerodha" className="border-b w-[500px]" />
             <h3 className="py-5 text-xl">Abacus Practice</h3>
