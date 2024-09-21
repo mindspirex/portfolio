@@ -56,8 +56,6 @@ export default function Home() {
       <p className="font-semibold">Striving for perfection</p>
       <p className="font-semibold">Multitasker</p>
       <p className="font-semibold">Quick learner</p>
-
-      <div className="border-b"></div>
     </section>
   );
 }

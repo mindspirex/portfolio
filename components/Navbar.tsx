@@ -17,10 +17,7 @@ export default function Navbar() {
         <Link href="#" className="px-3 sm:px-5 hover:text-blue-500">
           Home
         </Link>
-        <Link
-          href="www.sanskar.dev"
-          className="px-3 sm:px-5 hover:text-blue-500"
-        >
+        <Link href="/resume" className="px-3 sm:px-5 hover:text-blue-500">
           Resumé
         </Link>
         <Link
