@@ -15,9 +15,7 @@ export default function Home() {
         </p>
       </div>
       <div className="flex flex-col">
-        <h5 className="font-semibold">
-          Indian Institute of Information Technology, Kota
-        </h5>
+        <h5 className="font-semibold">IIIT, Kota</h5>
         <p className="text-sm">
           Btech, Artificial Intelligence and Data Engineering
         </p>
