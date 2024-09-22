@@ -12,7 +12,9 @@ export default function Navbar() {
 
   return (
     <section className="container flex h-20 items-center justify-center md:justify-between border-white font-bold">
-      <h1 className="text-2xl font-semibold hidden md:inline">Sanskar Kumar</h1>
+      <Link href="/" className="text-2xl font-semibold hidden md:inline">
+        Sanskar Kumar
+      </Link>
       <div className="flex text-lg">
         <Link href="/" className="px-3 sm:px-5 hover:text-blue-500">
           Home
