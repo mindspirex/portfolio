@@ -11,7 +11,7 @@ export default function Contact() {
           alt="green triangle"
           className="h-[40px] w-[40px]"
         />
-        <h1 className="text-5xl font-semibold">Contact</h1>
+        <h1 className="sm:text-5xl text-4xl font-semibold">Contact</h1>
       </div>
       <div className="flex flex-wrap gap-8 ml-14 text-lg font-bold">
         <Link href="https://www.linkedin.com/in/sanskar-kumar-85800b214/">

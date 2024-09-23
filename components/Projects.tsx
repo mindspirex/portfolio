@@ -14,7 +14,7 @@ export default function Projects() {
           alt="green triangle"
           className="h-[40px] w-[40px]"
         />
-        <h1 className="font-semibold text-5xl">Projects</h1>
+        <h1 className="font-semibold sm:text-5xl text-4xl">Projects</h1>
       </div>
       <div className="flex flex-wrap gap-5">
         <Link href="https://zerodhaclone-7yosxrk8m-mindspirexs-projects.vercel.app/">

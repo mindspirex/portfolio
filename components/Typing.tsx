@@ -12,7 +12,7 @@ export default function Typing() {
           alt="green triangle"
           className="h-[40px] w-[40px]"
         />
-        <h1 className="text-5xl font-semibold">Typing</h1>
+        <h1 className="sm:text-5xl text-4xl font-semibold">Typing</h1>
       </div>
       <div className="flex flex-wrap gap-5">
         <Image src={typing1} alt="typing" className="rounded-lg w-[500px]" />

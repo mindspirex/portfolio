@@ -11,7 +11,9 @@ export default function CompetitiveProgramming() {
           alt="green triangle"
           className="h-[40px] w-[40px]"
         />
-        <h1 className="font-semibold text-5xl">Competitive Programming</h1>
+        <h1 className="font-semibold text-4xl sm:text-5xl">
+          Competitive Programming
+        </h1>
       </div>
       <div className=" flex flex-col ml-14 font-semibold gap-3">
         <p>1616 contest rating on Leetcode</p>
