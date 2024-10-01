@@ -15,10 +15,16 @@ export default function CompetitiveProgramming() {
           Competitive Programming
         </h1>
       </div>
-      <div className=" flex flex-col ml-14 font-semibold gap-3">
-        <p>1616 contest rating on Leetcode</p>
-        <p>Solved 200+ questions on Leetcode</p>
-        <p>Solved 150+ questions on Codechef</p>
+      <div className="flex flex-wrap ml-14 font-semibold gap-5">
+        <Link href="#" className="p-5 rounded-xl border">
+          <p>1616 Contest Rating on Leetcode</p>
+        </Link>
+        <Link href="#" className="p-5 rounded-xl border">
+          <p>200+ Questions on Leetcode</p>
+        </Link>
+        <Link href="#" className="p-5 rounded-xl border">
+          <p>150+ Questions on Codechef</p>
+        </Link>
       </div>
     </section>
   );

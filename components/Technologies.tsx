@@ -24,9 +24,9 @@ export default function Technologies() {
           alt="green triangle"
           className="h-[40px] w-[40px]"
         />
-        <h1 className="font-semibold text-5xl">Technologies</h1>
+        <h1 className="font-semibold sm:text-5xl text-4xl">Technologies</h1>
       </div>
-      <div className="flex flex-wrap gap-5 md:gap-10 text-xs md:text-mda">
+      <div className="flex flex-wrap gap-5 md:gap-10 text-xs md:text-lg">
         <div className="flex h-14 w-36 rounded-lg bg-[#f9fafb] items-center pl-3 gap-4 md:w-44">
           <Image src={react} alt="react" className="w-[48px] h-[48px]" />
           <p className="">React</p>
