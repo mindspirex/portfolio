@@ -16,13 +16,22 @@ export default function CompetitiveProgramming() {
         </h1>
       </div>
       <div className="flex flex-wrap ml-14 font-semibold gap-5">
-        <Link href="#" className="p-5 rounded-xl border">
+        <Link
+          href="https://leetcode.com/u/sanskar3"
+          className="p-5 rounded-xl border"
+        >
           <p>1616 Contest Rating on Leetcode</p>
         </Link>
-        <Link href="#" className="p-5 rounded-xl border">
+        <Link
+          href="https://leetcode.com/u/sanskar3"
+          className="p-5 rounded-xl border"
+        >
           <p>200+ Questions on Leetcode</p>
         </Link>
-        <Link href="#" className="p-5 rounded-xl border">
+        <Link
+          href="https://www.codechef.com/users/carbon64"
+          className="p-5 rounded-xl border"
+        >
           <p>150+ Questions on Codechef</p>
         </Link>
       </div>
