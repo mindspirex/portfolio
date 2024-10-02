@@ -1,5 +1,4 @@
 import Image from "next/image";
-import hello from "@/images/hello.png";
 import computer from "@/images/computer.png";
 
 export default function Hello() {

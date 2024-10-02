@@ -1,7 +1,7 @@
 import Image from "next/image";
 import green_triangle from "@/images/green_triangle.png";
-import typing1 from "@/images/typing1.png";
-import typing2 from "@/images/typing2.png";
+import typing1 from "@/images/typing1.jpeg";
+import typing2 from "@/images/typing2.jpeg";
 
 export default function Typing() {
   return (
