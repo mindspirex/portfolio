@@ -1,16 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import green_triangle from "@/images/green_triangle.png";
 
 export default function Contact() {
   return (
     <section className="container flex flex-col gap-6 py-14">
       <div className="flex items-center gap-3">
-        <Image
-          src={green_triangle}
-          alt="green triangle"
-          className="h-[40px] w-[40px]"
-        />
+        <svg width="30" height="30">
+          <polygon points="0,30 30,30 15,0" fill="#5dda42" />
+        </svg>
         <h1 className="sm:text-5xl text-4xl font-semibold">Contact</h1>
       </div>
       <div className="flex flex-wrap gap-8 ml-14 text-lg font-bold">

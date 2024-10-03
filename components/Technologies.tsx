@@ -1,5 +1,4 @@
 import Image from "next/image";
-import green_triangle from "@/images/green_triangle.png";
 import react from "@/images/technologies/react.svg";
 import tailwind from "@/images/technologies/tailwind.svg";
 import git from "@/images/technologies/git.svg";
@@ -19,11 +18,9 @@ export default function Technologies() {
   return (
     <section className="container flex flex-col py-24 border-b gap-10">
       <div className="flex items-center gap-3">
-        <Image
-          src={green_triangle}
-          alt="green triangle"
-          className="h-[40px] w-[40px]"
-        />
+        <svg width="30" height="30">
+          <polygon points="0,30 30,30 15,0" fill="#5dda42" />
+        </svg>
         <h1 className="font-semibold sm:text-5xl text-4xl">Technologies</h1>
       </div>
       <div className="flex flex-wrap gap-5 md:gap-10 text-xs md:text-lg">

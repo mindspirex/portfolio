@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import green_triangle from "@/images/green_triangle.png";
 import zerodha from "@/images/zerodha.png";
 import starbucks from "@/images/starbucks.png";
 import abacus from "@/images/abacus.png";
@@ -8,12 +7,10 @@ import abacus from "@/images/abacus.png";
 export default function Projects() {
   return (
     <section className="container flex flex-col py-20 border-b gap-5">
-      <div className="flex items-censter gap-3">
-        <Image
-          src={green_triangle}
-          alt="green triangle"
-          className="h-[40px] w-[40px]"
-        />
+      <div className="flex items-center gap-3">
+        <svg width="30" height="30">
+          <polygon points="0,30 30,30 15,0" fill="#5dda42" />
+        </svg>
         <h1 className="font-semibold sm:text-5xl text-4xl">Projects</h1>
       </div>
       <div className="flex flex-wrap gap-5">
