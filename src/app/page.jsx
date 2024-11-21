@@ -268,7 +268,7 @@ export default async function Home() {
             Software developer, Web3 Enthusiast, and amateur Minecrafter
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Sanskar, a software designer based in Noida. I’m currently
+            I’m Sanskar, a software developer based in Noida. I’m currently
             pursuing Btech in Computer Science at Indian Instititute of
             Information Technology, Kota.
           </p>
